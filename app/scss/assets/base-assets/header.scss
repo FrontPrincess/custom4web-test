@@ -1,19 +1,13 @@
 @import '../settings';
 
 
-
-
-
-
-
-
 /*header*/
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     padding: 37px 0;
-    align-items: flex-start`;
+    align-items: flex-start;
     a {
         text-decoration: none;
     }
@@ -99,6 +93,20 @@
     }
 }
 
+.search-block {
+	position: relative;
+}
+
+.search-line {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
 .cart-block {
     color: color('light-gray');
     margin-bottom: 25px;
@@ -121,9 +129,6 @@
         color: color('orange');
     }
 }
-
-
-
 
 /* .header-nav */
 
@@ -148,6 +153,7 @@
         display: block;
     }
 }
+
 
 
 
