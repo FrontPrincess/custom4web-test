@@ -5,13 +5,15 @@
 
 
 
+
+
 /*header*/
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     padding: 37px 0;
-    align-items: center;
+    align-items: flex-start`;
     a {
         text-decoration: none;
     }
@@ -39,6 +41,9 @@
         list-style: none;
         display: flex;
         margin-bottom: 0;
+    }
+    &__item {
+        text-align: center;
     }
 }
 
@@ -80,8 +85,6 @@
     }
 }
 
-
-
 .search-btn {
     background-color: transparent;
     margin-left: 10px;
@@ -114,9 +117,41 @@
 }
 
 .donate-block {
-	&__link {
-		color: color('orange');
-	}
+    &__link {
+        color: color('orange');
+    }
 }
+
+
+
+
+/* .header-nav */
+
+.header-nav {
+    &__list {
+        display: flex;
+        list-style: none;
+        width: 742px;
+        margin: 0 auto;
+    }
+    &__item {
+        &.active {
+            .header-nav__link {
+                color: color('orange');
+            }
+        }
+    }
+    &__link {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+    }
+}
+
+
+
+/* END: .header-nav */
+
 
 /*END:header*/
