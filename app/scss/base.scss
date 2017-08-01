@@ -10,22 +10,23 @@ body {
 }
 
 body {
-    background: url('https://media.giphy.com/media/11RwocOdukxqN2/giphy.gif') center center/75vw 75vh no-repeat;
-
-    @include headerIsFixed(false);
+   @include headerIsFixed(false);
+   font-family: 'HelveticaNeue-CondBold';
+   font-size: 16px;
+   color: color('primary');
 }
 
 .wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-    table-layout: fixed;
+/*     display: table;
+width: 100%;
+height: 100%;
+table-layout: fixed; */
 }
 
 .main {
-    display: table-row;
-    height: 100%;
-    height: 1px;
+/*     display: table-row;
+height: 100%;
+height: 1px; */
 }
 
 .clearfix {
@@ -47,5 +48,24 @@ body {
 
     @extend .clearfix;
 }
+
+.default-title {
+    font-size: 42px;
+    color: color('orange');
+}
+
+.default-subtitle {
+    font-size: 35px;
+    color: color('primary');
+}
+
+.color-orange {
+    color: color('orange');
+}
+
+.color-gray {
+    color: color('primary');
+}
+
 
 /*END:base*/

@@ -1,6 +1,16 @@
+@import '../settings';
 /*header*/
 .site-header {
-    display: table-header-group;
-    height: 1px;
+/*     display: table-header-group;
+height: 1px; */
+
 }
+
+
+
+.season-links {
+	font-size: 60px;
+	color: color('orange');
+}
+
 /*END:header*/
