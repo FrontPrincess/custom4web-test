@@ -67,8 +67,16 @@
     &-list {
         list-style: none;
         margin-bottom: 0;
+        display: flex;
+    }
+    &-item {
+        margin-right: 7px;
+        &:last-child {
+            margin-right: 0;
+        }
     }
     &__link {
+        display: block;
         svg {
             width: 17px;
             height: 17px;

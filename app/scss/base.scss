@@ -22,6 +22,7 @@ body {
 a {
     color: color('primary');
     transition: all 0.15s ease-in;
+    text-decoration: none;
     &:hover,
     &:focus {
         color: color('orange');
@@ -103,12 +104,25 @@ a {
     font-family: 'HelveticaNeue-CondReg';
     display: inline-block;
     text-align: center;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: color('secondary');
     }
     &--gray {
         background-color: color('primary');
     }
+    &--transparent {
+        border: 1px solid #B6B8BA;
+        background-color: transparent;
+        color: color('light-gray');
+        font-size: 19px;
+        min-width: 120px;
+        &:hover,
+        &:focus {
+           color: color('orange')
+        }
+    }
 }
+
 
 /*END:base*/
