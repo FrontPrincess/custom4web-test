@@ -12,5 +12,9 @@ $(document).ready(function() {
         dots: true,
         arrows: true
     });
+
+    $('.top-btn').on('click', function(event) {
+        $('html, body').animate({scrollTop: 0}, 900)
+    });
 });
 
