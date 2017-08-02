@@ -1,7 +1,7 @@
 @import 'assets/settings';
 
 .main-slider {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 /* .slider-list */
@@ -57,6 +57,7 @@
         height: 8px;
         border-radius: 50%;
         background-color: color('light-gray');
+        cursor: pointer;
     }
     .slick-active {
         background-color: #000;

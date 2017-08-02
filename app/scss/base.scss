@@ -29,19 +29,6 @@ a {
     }
 }
 
-.wrapper {
-    /*     display: table;
-width: 100%;
-height: 100%;
-table-layout: fixed; */
-}
-
-.main {
-    /*     display: table-row;
-height: 100%;
-height: 1px; */
-}
-
 .clearfix {
     &:after {
         display: block;
@@ -65,6 +52,7 @@ height: 1px; */
 .default-title {
     font-size: 42px;
     color: color('orange');
+    text-transform: uppercase;
     &--small {
         font-size: 21px;
         font-family: 'HelveticaNeue-CondReg';
@@ -74,6 +62,7 @@ height: 1px; */
 .default-subtitle {
     font-size: 35px;
     color: color('primary');
+    text-transform: uppercase;
 }
 
 .color-orange {
@@ -101,7 +90,7 @@ height: 1px; */
 
 .default-btn {
     min-width: 150px;
-    padding: 10px 10px;
+    padding: 7px 10px;
     color: color('secondary');
     text-transform: uppercase;
     font-size: 26px;
@@ -112,6 +101,9 @@ height: 1px; */
     text-align: center;
     &:hover, &:focus {
         color: color('secondary');
+    }
+    &--gray {
+        background-color: color('primary');
     }
 }
 
