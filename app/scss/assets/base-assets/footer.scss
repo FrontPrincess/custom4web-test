@@ -2,19 +2,54 @@
 
 .site-footer {
     background-color: color('primary');
+    padding: 65px 0 30px;
+    .default-title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
 }
 
 .partners {
     &-list {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
     &-item {
-    	min-width: 50px;
-    	width: 16%;
+        min-width: 50px;
+        width: 16%;
     }
 }
+
+.top-btn {
+    width: 40px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.footer-inner {
+    text-align: center;
+    color: color('secondary');
+}
+
+.footer-link {
+    color: color('secondary');
+    &--block {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-bottom {
+	&__text {
+		margin-bottom: 25px;
+		span {
+			text-transform: uppercase;
+		}
+	}
+}
+
+
 
 
 
