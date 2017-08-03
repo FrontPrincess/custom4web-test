@@ -1,7 +1,7 @@
 <img src="https://worldvectorlogo.com/logos/gulp.svg" alt="Gulp Logo" width="100">
 
 ## Description
-Arthur Mirzoyan's gulp-project for the default markup website
+Gulp-project for the default markup website
 
 ## Default Usage
 Follow the following steps and you're never walk alone!
