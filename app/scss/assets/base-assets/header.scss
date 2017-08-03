@@ -1,17 +1,24 @@
 @import '../settings';
 
+
+
 /*header*/
 
 .header-inner {
     display: flex;
     justify-content: space-between;
-    padding: 37px 0;
+    padding: 27px 0 37px;
     align-items: flex-start;
     a {
         text-decoration: none;
     }
 }
 
+.site-description,
+.header-logo,
+.header-actions {
+    padding-top: 10px;
+}
 
 .site-description {
     flex-basis: 25%;
@@ -158,8 +165,6 @@
 }
 
 
-
-
 /* .header-nav */
 
 .header-nav {
@@ -179,15 +184,38 @@
     &__link {
         text-transform: uppercase;
         text-decoration: none;
-        padding: 20px;
+        padding: 20px 19px;
         display: block;
     }
 }
 
 
 
-
 /* END: .header-nav */
+
+.toggle-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: none;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 9999;
+    svg {
+        fill: color('primary');
+        @extend %default-transition;
+    }
+    &:hover,
+    &:focus {
+        svg {
+            fill: color('orange');
+            @extend %default-transition;
+        }
+    }
+}
+
+
 
 
 /*END:header*/

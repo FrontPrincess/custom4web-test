@@ -1,0 +1,178 @@
+@media screen and (max-width: 1160px) {
+    .myContainer {
+        width: 98%;
+    }
+    .slick-arrow {
+        bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 1041px) {
+    .site-description {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-title {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .slider-description {
+        width: 338px;
+        height: 291px;
+        &__text {
+            font-size: 20px;
+            margin-bottom: 37px;
+        }
+    }
+    .slick-arrow {
+        width: 42px;
+        height: 37px;
+    }
+    .default-title {
+        font-size: 39px;
+    }
+    .default-subtitle {
+        font-size: 30px;
+    }
+    .default-btn {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 971px) {
+    .site-description {
+        font-size: 23px;
+    }
+    .big-name {
+        font-size: 67px;
+    }
+    .subname {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .default-title {
+        font-size: 35px;
+    }
+    .default-subtitle {
+        font-size: 24px;
+    }
+    .default-btn {
+        font-size: 18px;
+        min-width: 115px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .big-name {
+        font-size: 55px;
+    }
+    .subname {
+        font-size: 34px;
+    }
+    .site-description {
+        font-size: 20px;
+    }
+    .default-title--small {
+        font-size: 18px;
+    }
+    .site-description,
+    .header-logo,
+    .header-actions {
+        padding-top: 6px;
+    }
+    .toggle-btn {
+        display: block;
+    }
+    .header-inner {
+        padding: 58px 0 37px;
+    }
+    .header-nav {
+        position: fixed;
+        z-index: 9999;
+        background-color: rgba(#747678, 0.9);
+        top: 54px;
+        left: 0;
+        width: 50%;
+        transform: translateX(-100%);
+        transition: all 0.5s ease-in;
+        &.active {
+            transform: translateX(0);
+            transition: all 0.5s ease-in;
+        }
+        &__list {
+            display: block;
+            width: 100%;
+        }
+        &__item {
+            display: block;
+            a {
+                color: #fff;
+                display: inline-block;
+                &:hover {
+                    color: #F36F21;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .site-description {
+        font-size: 16px;
+    }
+    .header-logo {
+        flex-basis: 11%;
+    }
+    .big-name {
+        font-size: 41px;
+    }
+    .subname {
+        font-size: 25px;
+    }
+    .site-description {
+        flex-basis: 30%;
+    }
+    .header-action {
+        flex-basis: 20%;
+    }
+    .season-links {
+        flex-basis: 39%;
+    }
+    .cart-block,
+    .socials {
+        margin-bottom: 15px;
+    }
+    .default-title {
+        font-size: 29px;
+    }
+    .default-subtitle {
+        font-size: 21px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header-inner {
+        flex-wrap: wrap;
+    }
+
+    .header-logo {
+        flex-basis: 25%;
+    }
+    .season-links {
+        flex-basis: 75%;
+    }
+
+    .site-description,
+    .header-actions {
+        flex-basis: 50%;
+        margin-top: 15px;
+    }
+    .footer-inner .socials {
+    	margin-bottom: 52px;
+    }
+}

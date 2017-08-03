@@ -33,7 +33,7 @@
         align-content: space-between;
         &__text {
             margin-bottom: 10px;
-            flex-basis: 1100%;
+            flex-basis: 100%;
             p {
                 margin-bottom: 0;
                 line-height: 19px;
@@ -62,6 +62,7 @@
 .sing-articles {
     padding: 10px 0;
 }
+
 
 
 
@@ -103,11 +104,16 @@ iframe {
     height: 100%;
     overflow: hidden;
     background-color: #000;
+    position: relative;
 }
 
 .thumbnail {
     opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
 }
-
 
 /* END: video-block */

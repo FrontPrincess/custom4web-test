@@ -5,10 +5,15 @@ $(document).ready(function() {
         $(this).parent().toggleClass('active');
     });
 
+    $('.toggle-btn').on('click', function(event) {
+        event.preventDefault();
+        $(this).parents().find('.header-nav').toggleClass('active');
+    });
+
     var clickOutsideArgs = {
-        elementRemoveClass: $('.search-block'),
-        elementToHide: $('.search-line'),
-        elementToPreserve: $('.search-block'),
+        elementRemoveClass: $('.search-block, .header-nav'),
+        elementToHide: $('.search-block, .toggle-btn'),
+        elementToPreserve: $('.search-block, .header-nav'),
     }
 
     clickOutside(clickOutsideArgs);
@@ -18,7 +23,13 @@ $(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        arrows: true
+        arrows: true,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                arrows: false
+            }
+        }]
     });
 
     $('.top-btn').on('click', function(event) {
@@ -27,8 +38,6 @@ $(document).ready(function() {
 
     var scrollToElementArgs = {
         links: '.header-nav__link',
-        // offset: 100,
-        // speed: 1000
     };
 
     scrollToElement(scrollToElementArgs);
