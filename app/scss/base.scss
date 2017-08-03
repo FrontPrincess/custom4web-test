@@ -30,6 +30,16 @@ a {
     }
 }
 
+a[href^="tel"] {
+    color: color('secondary');
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        color: color('orange');
+        transition: all 0.15s ease-in;
+    }
+}
+
 .clearfix {
     &:after {
         display: block;
