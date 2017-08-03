@@ -1,19 +1,19 @@
 @import 'assets/settings';
 
-.about {
+.support-us {
     padding: 85px 0;
 }
 
-/* .about-links */
+/* .support-links */
 
-.about-links {
+.support-links {
     display: flex;
     .default-title {
         margin-bottom: 40px;
     }
 }
 
-.about-link {
+.support-link {
     display: block;
     width: 374px;
     height: 213px;
@@ -37,7 +37,7 @@
             }
         }
     }
-    .about-link {
+    .support-link {
         &:last-child {
             margin-right: 0;
         }
@@ -45,7 +45,7 @@
 }
 
 .shop {
-    .about-link {
+    .support-link {
         img {
             display: block;
             border: 1px solid color('light-gray');
@@ -53,11 +53,11 @@
     }
 }
 
-/* END: .about-links */
+/* END: .support-links */
 
-/* media */
+/* about */
 
-.media {
+.about {
     text-align: center;
     padding: 73px 0 96px;
     .default-title {
@@ -83,4 +83,4 @@
 }
 
 
-/* END: media */
+/* END: about */
