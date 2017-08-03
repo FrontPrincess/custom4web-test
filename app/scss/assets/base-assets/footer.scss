@@ -15,8 +15,10 @@
         justify-content: space-between;
         margin-bottom: 70px;
         flex-wrap: wrap;
+        align-items: flex-end;
     }
     &-item {
+        padding: 0 5px;
         &:first-child {
             flex-basis: 24%;
         }

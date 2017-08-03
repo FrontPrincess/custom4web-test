@@ -155,37 +155,42 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    .myContainer {
-    	width: 95%;
-    }
+@media screen and (max-width: 525px) {
     .header-inner {
         flex-wrap: wrap;
         padding: 58px 10px 37px;
     }
-
+    .site-description,
+    .header-actions {
+        flex-basis: 50%;
+        margin-top: 15px;
+    }
     .header-logo {
         flex-basis: 25%;
     }
     .season-links {
         flex-basis: 75%;
     }
-
-    .site-description,
-    .header-actions {
-        flex-basis: 50%;
-        margin-top: 15px;
+    .big-name {
+        display: block;
     }
-    .footer-inner .socials {
-        margin-bottom: 52px;
+    .season-links__list {
+        justify-content: flex-end;
     }
-
-
-    .header-actions {
-        padding-right: 23px;
+    .season-links__item {
+        &:first-child {
+            margin-right: 20px;
+        }
+    }
+    .myContainer {
+        width: 93%;
     }
     .header-nav {
         width: 100%;
         height: 100%;
     }
+    
 }
+
+
+@media screen and (max-width: 375px) {}
