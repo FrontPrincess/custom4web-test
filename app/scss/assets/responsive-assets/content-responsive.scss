@@ -142,7 +142,7 @@
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 375px){
     .article-item {
         flex-wrap: wrap;
     }
@@ -163,6 +163,12 @@
             margin-right: 0;
             margin-bottom: 20px;
         }
+    }
+    .whatson-articles {
+        padding: 10px 0 10px;
+    }
+    .main-slider {
+        display: none;
     }
 
 

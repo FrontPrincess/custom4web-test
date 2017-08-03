@@ -13,12 +13,31 @@
     &-list {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 70px;
         flex-wrap: wrap;
     }
     &-item {
-        min-width: 50px;
-        width: 16%;
+        &:first-child {
+            flex-basis: 24%;
+        }
+        &:nth-child(2) {
+            flex-basis: 16%;
+        }
+        &:nth-child(3) {
+            flex-basis: 12%;
+        }
+        &:nth-child(4) {
+            flex-basis: 12.5%;
+        }
+        &:nth-child(5) {
+            flex-basis: 14.5%;
+        }
+        &:nth-child(6) {
+            flex-basis: 13.5%;
+        }
+        &:last-child {
+            flex-basis: 7.5%;
+        }
     }
 }
 
@@ -34,15 +53,15 @@
     text-align: center;
     color: color('secondary');
     .socials {
-    	justify-content: center;
-    	margin-bottom: 90px;
+        justify-content: center;
+        margin-bottom: 90px;
     }
 }
 
 .footer-contacts {
-	width: 300px;
-	margin: 0 auto;
-	margin-bottom: 40px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .footer-link {
@@ -54,13 +73,14 @@
 }
 
 .footer-bottom {
-	&__text {
-		margin-bottom: 25px;
-		span {
-			text-transform: uppercase;
-		}
-	}
+    &__text {
+        margin-bottom: 25px;
+        span {
+            text-transform: uppercase;
+        }
+    }
 }
+
 
 
 
