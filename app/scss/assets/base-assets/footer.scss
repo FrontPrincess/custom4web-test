@@ -64,6 +64,19 @@
     width: 300px;
     margin: 0 auto;
     margin-bottom: 40px;
+    p {
+        &:first-child {
+            text-transform: uppercase;
+        }
+        &:nth-child(2) {
+            font-family: 'HelveticaNeue-CondReg';
+        }
+    }
+    a {
+        &:first-of-type, &:nth-of-type(2) {
+            font-family: 'HelveticaNeue-CondReg';
+        }
+    }
 }
 
 .footer-link {
@@ -77,15 +90,12 @@
 .footer-bottom {
     &__text {
         margin-bottom: 25px;
+        font-family: 'HelveticaNeue-CondReg';
         span {
             text-transform: uppercase;
+            font-family: 'HelveticaNeue-CondBold';
         }
     }
 }
-
-
-
-
-
 
 /*END:footer*/
