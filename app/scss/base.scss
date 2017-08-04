@@ -9,14 +9,16 @@ html {
 }
 
 body {
-    height: 100%;
+    
 }
 
 body {
     @include headerIsFixed(false);
+    height: 100%;
     font-family: 'HelveticaNeue-CondBold';
     font-size: 16px;
     color: color('primary');
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
