@@ -134,6 +134,9 @@
             }
         }
     }
+    .partners-item {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -179,7 +182,6 @@
         justify-content: center;
     }
     .partners-item {
-        margin-bottom: 10px;
         &:first-child,
         &:nth-child(2),
         &:nth-child(3),

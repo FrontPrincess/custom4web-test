@@ -189,8 +189,11 @@
         width: 100%;
         height: 100%;
     }
+    .default-input {
+        font-size: 15px;
+    }
+    .btns-block input.default-input {
+        padding: 8px 10px;
+    }
     
 }
-
-
-@media screen and (max-width: 375px) {}
