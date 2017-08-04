@@ -4,6 +4,7 @@
     padding: 85px 0;
 }
 
+
 /* .support-links */
 
 .support-links {
@@ -70,6 +71,7 @@
 }
 
 
+
 /* END: .support-links */
 
 
@@ -83,10 +85,13 @@
     }
     .btns-block {
         margin-bottom: 60px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         .default-input {
             margin-right: 5px;
-            vertical-align: top;
-            // max-height: 35px;
+            vertical-align: top; 
+            max-height: 35px;
         }
     }
     &-img {
@@ -104,6 +109,7 @@
         height: 48px;
     }
 }
+
 
 
 
